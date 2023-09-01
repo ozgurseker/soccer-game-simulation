@@ -2,7 +2,7 @@ import autograd.numpy as np2
 from autograd import grad
 import scipy.optimize as op
 from scipy.optimize import Bounds
-
+#classes:
 class team:
     def __init__(self, Pa, Pd, W, D, Opp):
         self.OffPow = Pa
