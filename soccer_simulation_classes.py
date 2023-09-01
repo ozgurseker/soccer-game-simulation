@@ -29,7 +29,7 @@ class team:
         self.effort_allocation = dict()
         self.Utilities = dict()
 
-
+#Class Functions:
     def ProbToScore(self, e1, e2):
         return e1*self.OffPow / (self.T * (e1*self.OffPow + (2-e2)*self.Opponent.DefPow))
 
